@@ -6,20 +6,18 @@
 
 <div class="container text-center mt-5">
     <div class="row justify-content-center">
-        <div class="col-lg-6 self-align-center">
+        <div class="col-lg-6">
             <h3>LOG IN ADMIN</h3>
-            <div class="mt-5">
-                <strong><p>Username</p></strong>
-            </div>
-            <div class="input-group input-group-lg">
-                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
-            </div>
-            <div class="mt-2 align-self-start">
-                <strong><p>Password</p></strong>
-            </div>
-            <div class="input-group input-group-lg">
-                <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
-            </div>
+            <form>
+                <div class="form-group mt-5">
+                    <label for="inputUsername"><strong>Username</strong></label>
+                    <input type="username" class="form-control form-control-lg" id="inputUsername">
+                </div>
+                <div class="form-group mt-2">
+                    <label for="inputPassword"><strong>Password</strong></label>
+                    <input type="password" class="form-control form-control-lg" id="inputPassword">
+                </div>
+            </form>
             <img class="img-responsive mt-4" style="max-width:140px;" src="{{asset('images/buttonLogin.svg')}}" alt="">
         </div>
     </div>
