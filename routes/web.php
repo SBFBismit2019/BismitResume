@@ -22,3 +22,11 @@ Route::get('/login', function () {
 Route::get('/addProjects', function () {
     return view('addProjects');
 });
+
+Route::get('/addGallery', function () {
+    return view('addGallery');
+});
+
+Route::get('/addTestimony', function () {
+    return view('addTestimony');
+});

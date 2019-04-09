@@ -7,10 +7,11 @@
 <div class="container text-center mt-5">
     <div class="row justify-content-center">
         <div class="col-lg-6 self-align-center">
-            <h3>ADD/EDIT PROJECTS</h3>
+            <h3>ADD/EDIT PHOTO TO GALLERY</h3>
         </div>
     </div>
     <div class="row">
+    
         <div class="col">
             <div class="form-group mt-5">
                 <label for="inputTitle"><strong>Title</strong></label>
@@ -23,6 +24,7 @@
                 <textarea class="form-control" aria-label="With textarea" rows="5"></textarea>
             </div>
         </div>
+
         <div class="col">
             <div class="mt-5 align-self-start">
                 <strong><p>AddPhoto</p></strong>
@@ -33,6 +35,7 @@
                     <label class="custom-file-label" for="inputFile">Choose file</label>
                 </div>
             </div>
+
             <div class="form-group mt-2">
                 <label for="inputLink"><strong>Link</strong></label>
                 <input type="link" class="form-control" id="inputLink">

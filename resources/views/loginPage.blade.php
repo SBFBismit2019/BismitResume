@@ -18,7 +18,9 @@
                     <input type="password" class="form-control form-control-lg" id="inputPassword">
                 </div>
             </form>
-            <img class="img-responsive mt-4" style="max-width:140px;" src="{{asset('images/buttonLogin.svg')}}" alt="">
+            <button type="button" class="btn btn-link btn-sm">
+                <img class="img-responsive mt-4" style="max-width:140px;" src="{{asset('images/buttonLogin.svg')}}" alt="">
+            </button>
         </div>
     </div>
 </div>
