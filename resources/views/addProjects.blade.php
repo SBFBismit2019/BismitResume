@@ -1,33 +1,16 @@
-<<<<<<< HEAD
-@extends('layouts.master')
-=======
 @extends('layouts.masterlogin')
->>>>>>> 7d9bd2880d37b1a279956ead89185e69984057d8
 
 @section('content')
 <div class="container">
 </div>
 
 <div class="container text-center mt-5">
-<<<<<<< HEAD
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <img style="max-width:200px;" class="img-responsive" src="{{ asset('images/dum.png') }}" alt="">
-            <h3>Galler</h3>
-            <img class="img-responsive" style="max-width:60px;" src="{{asset('images/laravel.svg')}}" alt="">
-            <img class="img-responsive" style="max-width:30px;" src="{{asset('images/bt.svg')}}" alt="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum illum omnis, quos tenetur rerum praesentium velit eum provident officiis facilis.</p>
-        </div>
-    </div>
-</div>
-=======
     <div class="row justify-content-center">
         <div class="col-lg-6 self-align-center">
-            <h3>ADD/EDIT PHOTO TO GALLERY</h3>
+            <h3>ADD/EDIT PROJECTS</h3>
         </div>
     </div>
     <div class="row">
-    
         <div class="col">
             <div class="form-group mt-5">
                 <label for="inputTitle"><strong>Title</strong></label>
@@ -40,7 +23,6 @@
                 <textarea class="form-control" aria-label="With textarea" rows="5"></textarea>
             </div>
         </div>
-
         <div class="col">
             <div class="mt-5 align-self-start">
                 <strong><p>AddPhoto</p></strong>
@@ -51,7 +33,6 @@
                     <label class="custom-file-label" for="inputFile">Choose file</label>
                 </div>
             </div>
-
             <div class="form-group mt-2">
                 <label for="inputLink"><strong>Link</strong></label>
                 <input type="link" class="form-control" id="inputLink">
@@ -70,5 +51,4 @@
 
 
 
->>>>>>> 7d9bd2880d37b1a279956ead89185e69984057d8
 @endsection
