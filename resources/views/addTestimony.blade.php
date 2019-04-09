@@ -13,8 +13,10 @@
     <div class="row">
     
         <div class="col">
-            <div class="form-group mt-5">
-                <label for="inputTitle"><strong>Subject</strong></label>
+            <div class="mt-5 align-self-start">
+                <strong><p>Subject</p></strong>
+            </div>
+            <div class="form-group mt-2">
                 <input type="subject" class="form-control" id="inputSubject">
             </div>
         </div>
