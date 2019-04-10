@@ -42,13 +42,6 @@
         </div>
 </div>
 
-<script>
-    function bismillah(){
-        var coba = document.getElementById('main image');
-        var coba1 = document.getElementById('image1');
-        console.log(coba.value);
-    }
-    
-</script>
+
 
 @endsection
