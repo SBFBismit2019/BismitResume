@@ -13,8 +13,10 @@
     <div class="row">
     
         <div class="col">
-            <div class="form-group mt-5">
-                <label for="inputTitle"><strong>Title</strong></label>
+            <div class="mt-5 align-self-start">
+                <strong><p>Title</p></strong>
+            </div>
+            <div class="form-group">
                 <input type="title" class="form-control" id="inputTitle">
             </div>
             <div class="mt-2 align-self-start">
@@ -36,11 +38,14 @@
                 </div>
             </div>
 
-            <div class="form-group mt-2">
-                <label for="inputLink"><strong>Link</strong></label>
+            <div class="mt-2 align-self-start">
+                <strong><p>Title</p></strong>
+            </div>
+            <div class="form-group">
                 <input type="link" class="form-control" id="inputLink">
             </div>
         </div>
+
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-g self-align-center">
