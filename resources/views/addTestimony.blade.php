@@ -7,7 +7,7 @@
 <div class="container text-center mt-5">
     <div class="row justify-content-center">
         <div class="col-lg-6 self-align-center">
-            <h3>ADD/EDIT PROJECTS</h3>
+            <h3>ADD/EDIT TESTIMONIES</h3>
         </div>
     </div>
     <div class="row">
