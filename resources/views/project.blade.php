@@ -31,7 +31,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-2 mt-4 ml-3" id="image1" onclick="bismillah()">
+        <div class="col-md-2 mt-4 ml-3" id="image1">
             <img class="img-responsive" src="images/profil.png" width="149" height="102" alt="image 1">
         </div>
         <div class="col-md-2 mt-4" id="image2">
@@ -41,7 +41,6 @@
             <img class="img-responsive" src="images/hmik.JPG" width="149" height="102" alt="image-3">
         </div>
 </div>
-
 
 
 @endsection
