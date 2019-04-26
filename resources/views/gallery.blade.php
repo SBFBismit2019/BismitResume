@@ -77,6 +77,11 @@
                 width:100%;
             }
         }
+        .hover_img:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+
     </style>
    
 
@@ -183,22 +188,22 @@
                 <div class="col-3">
                 <nav class="nav justify-content-center scroller">
                     <a class="nav-link active" href= "#satu" data-toggle="tab">
-                        <img src="{{asset('images/1.jpeg')}}" class="img-dec" alt="">
+                        <img src="{{asset('images/1.jpeg')}}" class="img-dec hover_img" alt="">
                     </a>
                     <a class="nav-link" href= "#dua" data-toggle="tab">
-                        <img src="{{asset('images/2.jpeg')}}" class="img-dec" alt="">
+                        <img src="{{asset('images/2.jpeg')}}" class="img-dec hover_img" alt="">
                     </a>
                     <a class="nav-link" href= "#tiga" data-toggle="tab">
-                        <img src="{{asset('images/3.jpeg')}}" class="img-dec" alt="">
+                        <img src="{{asset('images/3.jpeg')}}" class="img-dec hover_img" alt="">
                     </a>
                     <a class="nav-link" href= "#empat" data-toggle="tab">
-                        <img src="{{asset('images/4.jpg')}}" class="img-dec" alt="">
+                        <img src="{{asset('images/4.jpg')}}" class="img-dec hover_img" alt="">
                     </a>
                     <a class="nav-link" href= "#lima" data-toggle="tab">
-                        <img src="{{asset('images/5.jpeg')}}" class="img-dec" alt="">
+                        <img src="{{asset('images/5.jpeg')}}" class="img-dec hover_img" alt="">
                     </a>
                     <a class="nav-link" href= "#enam" data-toggle="tab">
-                        <img src={{asset('images/6.jpeg')}} class="img-dec" alt="">
+                        <img src={{asset('images/6.jpeg')}} class="img-dec hover_img" alt="">
                     </a>
                 </nav>
                 </div>
