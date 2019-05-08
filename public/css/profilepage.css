@@ -1,0 +1,245 @@
+html, * {
+  font-family: 'Muli', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  min-width:245px; 
+  width: 100%;
+}
+
+
+
+
+.title {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+/*Every member card*/
+.thumbnail {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); */
+    transition: 0.3s;
+    min-width: 40%;
+    /* border-radius: 5px; */
+    background-color: #292533;
+    /* background-color: #47455C; */
+    border: none;
+
+  }
+ 
+.thumbnail-description {
+  min-height: 40px;
+  color: white;
+}
+
+#thumbnail-label {
+  color: #FFB736;
+}
+
+#job{
+  color: white;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+
+
+
+.header {
+  color: white;
+  background: linear-gradient( 
+    rgba(71, 69, 92, .5),
+    rgba(71, 69, 92, .5)),
+    url("../images/DSC_0304.JPG");
+  height: 100%;
+  /* background-position: 50% 50%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-clip: border-box; */
+  background-color: transparent;
+  min-height: 500px;
+  padding-top: 20%;
+  padding-bottom: 245px;
+  /* padding-left: 5em; */
+  background-attachment: fixed;
+  border: none !important;
+
+}
+
+@media screen and (max-width: 767px){
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+}
+
+@media screen and (max-width: 991px){
+.header h1 {
+    font-size: 50px;
+}
+}
+.header h1 {
+    font-size: 75px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  padding: 5%;
+}
+
+
+span, #us:before{
+  content: 'US';
+  animation: animate infinite 8s;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+@keyframes animate {
+   0% {
+    content: 'BISMIT' 
+   }
+
+   25% {
+    content: 'US' 
+   }
+
+   50% {
+    content: 'BISMIT' 
+   }
+
+   75% {
+    content: 'US' 
+   }
+
+   100% {
+    content: 'BISMIT' 
+   }
+}
+
+
+
+
+ /*NYONTEK GAIA*/
+ .section {
+  padding: 50px 0;
+  position: relative;
+  background-color: #FFFFFF;
+}
+
+.section {
+  position: relative;
+}
+.section .title-area {
+  max-width: 760px;
+  margin: 0 auto 70px;
+  display: block;
+  padding: 0 15px;
+  text-align: center;
+}
+.section .title-area .description {
+  font-size: 16px;
+  color: #292533;
+}
+.section [class*="col-"] .title-area {
+  padding: 0;
+}
+.section .text-area {
+  padding: 4.375em 0;
+  position: relative;
+  z-index: 3;
+  display: block;
+}
+.section .text-area .description,
+.section .text-area .description p {
+  font-size: 16px;
+  color: #292533;
+  text-align: center;
+}
+
+
+
+hr { 
+  display: block;
+  /* margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto; */
+  overflow: hidden;
+  border-radius: 6px;
+  border: 3px solid white;
+  width: 50%;
+  margin: 5px;
+  color: white;
+  padding: 0;
+  
+  
+}
+
+#memberline {
+  border: 3px solid #FFB736;
+  width: 80%;
+  position: center;
+}
+
+
+#team {
+  /* background: #47455C; */
+  background: #292533;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.imagemember{
+  margin-top: 2%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-sizing: border-box;
+  width: 180px;
+  height: 180px;
+  
+}
+
+.imagemember:hover {
+  border: 4px solid #FFB736;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+
+
+/* 
+.resp-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  background-color: #FFB736;
+}
+
+.resp-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 40%;
+  border: 0;
+}
+ */
+
