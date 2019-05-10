@@ -62,7 +62,7 @@ class TestimoniesController extends Controller
     public function show($id)
     {
         //
-        $testimony = Testimnoy::find($id);
+        $testimony = Testimony::find($id);
 
         return $testimony->subject;
     }

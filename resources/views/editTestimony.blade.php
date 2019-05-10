@@ -10,9 +10,9 @@
             <h3>EDIT TESTIMONY</h3>
         </div>
     </div>
-    <form action="/testimonies" method="POST" ></form>
-    <input type="hidden" name="_method" value="put">
+    <form action="/testimonies/{{$testimony->id}}" method="POST" enctype="multipart/form-data">
         @csrf
+        <input type="hidden" name="_method" value="patch">
         <div class="row">
         
             <div class="col">
@@ -40,6 +40,7 @@
                 </button>
             </div>
         </div>
+    </form>
 </div>
 
 

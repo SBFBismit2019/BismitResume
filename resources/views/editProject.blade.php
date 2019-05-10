@@ -11,7 +11,7 @@
         </div>
     </div>
     
-    <form action="/projects" method="post" enctype="multipart/form-data">
+    <form action="/projects/{{$project->id}}" method="post" enctype="multipart/form-data">
         <input type="hidden" name="_method" value="put">
         @csrf
         <div class="row">
