@@ -7,10 +7,11 @@
 <div class="container text-center mt-5">
     <div class="row justify-content-center">
         <div class="col-lg-6 self-align-center">
-            <h3>ADD TESTIMONY</h3>
+            <h3>EDIT TESTIMONY</h3>
         </div>
     </div>
-    <form action="/testimonies" method="POST" enctype="multipart/form-data">
+    <form action="/testimonies" method="POST" ></form>
+    <input type="hidden" name="_method" value="put">
         @csrf
         <div class="row">
         
@@ -19,7 +20,7 @@
                     <strong><p>Subject</p></strong>
                 </div>
                 <div class="form-group mt-2">
-                    <input type="subject" class="form-control" id="inputSubject" name="subject">
+                    <input type="subject" class="form-control" id="inputSubject" name="subject" value="{{$testimony->subject}}">
                 </div>
             </div>
 
@@ -28,7 +29,7 @@
                     <strong><p>Testimony</p></strong>
                 </div>
                 <div class="input-group">
-                    <textarea class="form-control" aria-label="With textarea" rows="5" name="testi"></textarea>
+                    <textarea class="form-control" aria-label="With textarea" rows="5" name="testi">{{$testimony->testi}}</textarea>
                 </div>
             </div>
         </div>
@@ -39,7 +40,6 @@
                 </button>
             </div>
         </div>
-    </form>
 </div>
 
 

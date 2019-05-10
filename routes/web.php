@@ -25,3 +25,4 @@ Route::get('/addTestimony', function () {
 
 Route::resource('projects', 'ProjectsController');
 Route::resource('galleries', 'GalleriesController');
+Route::resource('testimonies', 'TestimoniesController');
