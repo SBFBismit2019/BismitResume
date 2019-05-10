@@ -15,24 +15,13 @@ Route::get('/', function () {
     return view('home');
 });
 
-<<<<<<< HEAD
-Route::get('/addgallery', function () {
-    return view('addGallery');
-});
-=======
 Route::get('/login', function () {
     return view('loginPage');
-});
-
-Route::get('/addProjects', function () {
-    return view('addProjects');
-});
-
-Route::get('/addGallery', function () {
-    return view('addGallery');
 });
 
 Route::get('/addTestimony', function () {
     return view('addTestimony');
 });
->>>>>>> 7d9bd2880d37b1a279956ead89185e69984057d8
+
+Route::resource('projects', 'ProjectsController');
+Route::resource('galleries', 'GalleriesController');
