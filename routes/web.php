@@ -23,14 +23,10 @@ Route::get('/login', function () {
     return view('loginPage');
 });
 
-Route::get('/addProjects', function () {
-    return view('addProjects');
-});
-
-Route::get('/addGallery', function () {
-    return view('addGallery');
-});
-
 Route::get('/addTestimony', function () {
     return view('addTestimony');
 });
+
+Route::resource('projects', 'ProjectsController');
+Route::resource('galleries', 'GalleriesController');
+Route::resource('testimonies', 'TestimoniesController');
