@@ -22,3 +22,23 @@ Route::get('/profilepage', function () {
 Route::get('/navbar', function () {
     return view('layouts/partials/navbar');
 });
+
+Route::get('/project', function () {
+    return view('project');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/login', function () {
+    return view('loginPage');
+});
+
+Route::get('/addTestimony', function () {
+    return view('addTestimony');
+});
+
+Route::resource('projects', 'ProjectsController');
+Route::resource('galleries', 'GalleriesController');
+Route::resource('testimonies', 'TestimoniesController');

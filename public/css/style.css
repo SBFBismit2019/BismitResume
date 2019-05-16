@@ -1,3 +1,4 @@
+
 .f-roboto {
     font-family: 'Roboto', sans-serif;
 }
@@ -5,7 +6,6 @@
 .f-ptsans {
     font-family: 'PT Sans', sans-serif;
 }
-
 
 /*Back to the top button*/
 
@@ -27,4 +27,24 @@
 
 #myBtn:hover {
   background-color: #555;
+}
+
+body {
+    background-color: #292B36;
+}
+
+.font_title{
+    src: url(https://fonts.googleapis.com/css?family=Muli:200,300,400,900&#34);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.font_desc{
+src: url(https://fonts.googleapis.com/css?family=Muli:200,300,400,900&#34);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: normal;
 }
