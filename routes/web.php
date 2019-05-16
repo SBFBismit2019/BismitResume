@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/profilepage', function () {
+    return view('profilepage');
+});
+
+Route::get('/navbar', function () {
+    return view('layouts/partials/navbar');
+});
+
 Route::get('/project', function () {
     return view('project');
 });
