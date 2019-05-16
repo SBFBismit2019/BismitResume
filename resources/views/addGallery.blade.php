@@ -10,6 +10,22 @@
             <h3>ADD PHOTO TO GALLERY</h3>
         </div>
     </div>
+    <div class="row">
+    
+        <div class="col">
+            <div class="mt-5 align-self-start">
+                <strong><p>Title</p></strong>
+            </div>
+            <div class="form-group">
+                <input type="title" class="form-control" id="inputTitle">
+            </div>
+            <div class="mt-2 align-self-start">
+                <strong><p>Description</p></strong>
+            </div>
+            <div class="input-group">
+                <textarea class="form-control" aria-label="With textarea" rows="5"></textarea>
+            </div>
+        </div>
 
     <form action="/galleries" method="post" enctype="multipart/form-data">
         @csrf

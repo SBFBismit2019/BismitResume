@@ -50,6 +50,7 @@
                 <img class="img-responsive mt-4" style="max-width:140px;" src="{{asset('images/buttonSubmit.svg')}}" alt="">
             </button>
             </div>
+
         </div>
 
     </form>
