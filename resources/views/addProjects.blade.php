@@ -12,7 +12,7 @@
     </div>
     <div class="row">
     
-    <div class="col">
+        <div class="col">
             <div class="mt-5 align-self-start">
                 <strong><p>Title</p></strong>
             </div>
