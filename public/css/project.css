@@ -1,0 +1,586 @@
+body {
+    font-family:"muli";
+    overflow-x:hidden;
+}
+
+/* navbar ----------------------------------------------------------------------------------------------------------------------------*/
+li:hover {
+    background:#FFB736;
+    transition: all .5s;
+}
+
+.navbar {
+    background: #292533;
+    font-size: 20px;
+}
+
+.nav-link {
+    color:white;
+}
+
+.nav-item #active{
+    color:#FFB736;
+}
+
+#active:hover{
+    color:#292533;
+}
+
+#burger {
+    outline:none;
+}
+
+#logo {
+    width: 60px;
+}
+
+#navElements a:hover{
+    color:#353536;
+}
+
+@media (max-width:992px) {
+    li {
+        width:100vw;
+        padding-left:15px;
+    }
+}
+
+
+@media (min-width:992px){
+    .navbar li{
+        height:4.1em;
+        display:flex;
+        align-items: center;
+        padding: 0 20px;
+    }
+    #hireUs {
+        background:#FFB736;
+    }
+}
+/* end of navbar ---------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* SECTIONS */
+/* gallery elements ------------------------------------------------------------------------------------------------------------------*/
+
+.gallery {
+    background: white;
+    position: relative;
+}
+
+.content {
+    margin-top:4em;
+    margin-bottom:350px;
+}
+
+.tile {
+    width:100%;
+    height:auto;
+    margin:1em;
+}
+
+
+/* end of gallery elements ----------------------------------------------------------------------------------------------------------*/
+/* contact elements -----------------------------------------------------------------------------------------------------------------*/
+.contact {
+    background: grey;
+    position:relative;
+    /* The image used */
+    background-image: 
+        linear-gradient(
+        rgba(209, 209, 209, 0.7),
+        rgba(209, 209, 209, 0.7)
+      ),url(imgs/parallax.jpg);
+
+    /* Set a specific height */
+    /* height: 500px; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+.contactElements {
+    padding-bottom:250px;
+}
+
+.contactElement {
+    padding:0;
+    margin-top:5em;
+    margin-bottom:5em;
+}
+
+.contactBtn {
+    position:absolute;
+    background:none;
+    border:none;
+    margin:none;
+    padding:0;
+    width:8em;
+}
+
+.contactBtn:hover {
+    width:8.5em;
+    transition: all .1s;
+}
+
+.contactDesc {
+    position:relative;
+    background:white;
+    font-size:1.5em;
+    width:15em;
+    height:100%;
+    padding:10px;
+    text-align:center;
+    margin-top:300px;
+    font-weight: bold;
+    color:black;
+    border: 2px solid black;
+}
+
+.contact h4 {
+    font-weight: bold;
+}
+
+@media(max-width:1100px){
+    .contactBtn {
+        position:absolute;
+        background:none;
+        border:none;
+        margin:none;
+        padding:0;
+        width:7em;
+    }
+    .contactDesc {
+        position:relative;
+        background:white;
+        font-size:1.3em;
+        width:12em;
+        height:100%;
+        padding:10px;
+        text-align:center;
+        margin-top:200px;
+        font-weight: bold;
+        color:black;
+        border: 2px solid black;
+    }
+}
+
+/* end of contact elements ----------------------------------------------------------------------------------------------------------*/
+/* location elements ----------------------------------------------------------------------------------------------------------------*/
+.location {
+    position:relative;
+}
+
+.locationElement {
+    height:20em;
+}
+
+.google-maps {
+    position: relative;
+    /* This is the aspect ratio */
+    padding-bottom: 320px;
+    height: 0;
+    overflow:hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#locationTitle {
+    color: black;
+    text-shadow: 0px 4px 2.5px rgba(41, 37, 51,.2);
+    font-size: 2em;
+    font-weight: 900;
+    font-family: "rubik";
+    text-align:center;
+    margin-top:1.5em;
+    padding-bottom:15px;
+    border-bottom: 8px solid black;
+    width: 7.2em;
+}
+
+#locationLabel {
+    background: #FFB736;
+}
+
+#locationLabel img {
+    width:3.2em;
+}
+
+#locationDesc {
+    margin-top:2.8em;
+}
+
+#locationLabel h4 {
+    margin-top:.5em;
+    font-weight: bold;
+    font-size:1.3em;
+    color:black;
+    text-align: center;
+}
+
+/* end of location ------------------------------------------------------------------------------------------------------------------*/
+/* sosmed elements ------------------------------------------------------------------------------------------------------------------*/
+.sosmed {
+    background: #292533;
+    position:relative;
+}
+
+/* Form */
+form {
+    margin-top:2.5em;
+    width: 41em;
+}
+
+textarea {
+    width: 100%;
+    height:10em;
+}
+
+input,textarea {
+    background:none;
+    border:1.5px solid grey;
+}
+
+input[type=text] {
+    margin-right: .7em;
+}
+
+input[type=text],input[type=email] {
+    width:20em;
+    height:2.5em;
+}
+
+textarea::placeholder,input[type=text]::placeholder,input[type=email]::placeholder {
+    padding-left:1em;
+    color:white;
+    padding-top:.5em;
+    font-size: 1.3em;
+}
+
+#id {
+    margin-bottom:1.5em;
+}
+
+#email {
+    margin:2.5em;
+    margin-top:5em;
+}
+
+#submitBtn button {
+ background:#463056;
+ border:none;
+ color:white;
+ padding-left:2.5em;
+ padding-right:2.5em;
+ margin-top:.5em;
+ width:11em;
+ height:2.5em;
+ font-size:1.3em;
+}
+
+#form_title {
+    width:100%;
+}
+
+#form_title img {
+    max-width:5em;
+    height:auto;
+    margin: 0 .7em;
+}
+
+#form_title h1 {
+    width: 6.5em;
+    color:white;
+    font-family: "rubik";
+    font-size: 2em;
+    padding-bottom: .3em;
+    letter-spacing: 1.5px;
+    border-bottom: 8px solid white;
+    font-weight:900;
+}
+/* End of form */
+/* end of sosmed --------------------------------------------------------------------------------------------------------------------*/
+/*END OF SECTIONS */
+
+
+
+/* buttons */
+.sideBtn {
+    color:rgb(77, 55, 18);
+    background:#FFB736;
+    border: none;
+    outline:none;
+}
+
+.numBtn {
+    font-size: 25px;
+    border:none;
+    height: 100%;
+    width:1.5em;
+    background: #FFF6A7;
+}
+/* end of buttons */
+.header {
+    display:flex;
+    justify-content: center;
+}
+
+.mainTitle {
+    color: #292533;
+    text-shadow: 0px 4px 2.5px rgba(41, 37, 51,.2);
+    font-size: 3.5em;
+    font-weight: 900;
+    font-family: "rubik";
+    text-align:center;
+    margin-top:2em;
+    padding-bottom:40px;
+    letter-spacing: .05em;
+    border-bottom: 8px solid #292533;
+    width: 7em;
+}
+
+@media(max-width:768px) {
+    .mainTitle {
+        color: #292533;
+        text-shadow: 0px 4px 2.5px rgba(41, 37, 51,.2);
+        font-size: 3em;
+        font-weight: 900;
+        font-family: "rubik";
+        text-align:center;
+        margin-top:2em;
+        padding-bottom:40px;
+        letter-spacing: .05em;
+        border-bottom: 8px solid #292533;
+        width: 7em;
+    }
+    .contactBtn:hover {
+        width:8em;
+        transition: all .3s;
+    }
+}
+
+#contactTitle {
+    color:black;
+    letter-spacing: .01em;
+    width: 7.5em;
+}
+
+#paginator {
+    display:flex;
+    height:40px;
+    width:100vw;
+    position: relative;
+    bottom: 200px;
+    justify-content: center;
+    font-family: "rubik";
+}
+
+#upBtn {
+    color:rgb(77, 55, 18);
+    background:#FFB736;
+    border:none;
+    outline:none;
+    position: absolute;
+    bottom: 60px;
+    right:40px;
+}
+/* Pop-up */
+.pop-up{
+	position: fixed;
+	display: none;
+	z-index: 5;
+	background-color: rgba(0, 0, 0, 0.85);
+	height: 100vh;
+	top: 0;
+	animation: pop 0.2s ease-in;
+	
+}
+
+.exit-btn{
+	font-size: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+.pop{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	flex-direction: column;
+}
+
+.trans {
+	display: block;
+	opacity: 0;
+	transition: all 2s;
+}
+
+.content1{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	display: flex;
+}
+.klik{
+	border: 5px solid #FFB736;
+}
+
+.model{
+	border: 0.5px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px #000000;
+}
+
+th {
+	padding: 1em;
+}
+
+.group{
+	display: block;
+	width: 47%;
+	height: 100%;
+}
+
+.description{
+	background-color: white;
+	padding: 15px;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	margin-left: 1em;
+	position: relative;
+	padding: 0.5em;
+}
+
+.judul .garis{
+	width: 70%;
+	border-bottom: 3px solid black;
+	border-radius: 3px;
+}
+
+.isi{
+	padding: 0.7em;
+	font-size: 0.52rem; 
+}
+
+
+.judul h4{
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.ancor{
+	font-size: 0.5rem;
+	color: black;
+	font-style: normal;
+	position: absolute;
+	display: block;
+	bottom: 1em;
+}
+
+.hover{
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	animation: moveover 0.4s ease-in forwards;
+	text-align: center;
+	color: white;
+	font-display: bold;
+	font-size: 24px;
+}
+
+@keyframes moveover{
+	from{
+		transform: translateY(2%);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}
+
+@keyframes pop{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@media (max-width: 360px) and (orientation: portrait){
+	.ancor{
+		font-size: 0.6rem;
+	}
+	.isi{
+		font-size: 0.5rem;
+	}
+	.judul h4{
+		font-size: 1.2rem;
+	}
+}
+@media (max-width: 600px) and (orientation: portrait){
+	.group{
+		width: 98%;
+	}
+	.content1{
+		flex-direction: column;
+	}
+	.description{
+		margin-left: 0;
+	}
+	.ancor{
+		font-size: 0.7rem;
+	}
+}
+@media (min-width: 800px) and (max-width: 1023px) and (orientation: landscape){
+	.ancor{
+		font-size: 0.7rem;
+	}
+	.isi{
+		font-size: 0.75rem;
+	}
+	.judul h4{
+		font-size: 2rem;
+	}
+}
+@media (min-width: 1024px) and (orientation: landscape){
+	.ancor{
+		font-size: 0.9rem;
+	}
+	.isi{
+		font-size: 1rem;
+	}
+	.judul h4{
+		font-size: 2.3rem;
+	}
+}
+@media (min-width: 1024px) and (orientation: portrait){
+	.ancor{
+		font-size: 0.9rem;
+	}
+	.isi{
+		font-size: 1rem;
+	}
+	.judul h4{
+		font-size: 2.3rem;
+	}
+}

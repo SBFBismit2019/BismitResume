@@ -18,9 +18,21 @@ Route::get('/', function () {
 Route::get('/profilepage', function () {
     return view('profilepage');
 });
-
+// Navbar 
 Route::get('/navbar', function () {
     return view('layouts/partials/navbar');
+});
+// footer
+Route::get('/footer', function () {
+    return view('layouts/partials/footer');
+});
+// footer
+Route::get('/footer', function () {
+    return view('layouts/partials/footer');
+});
+// footer
+Route::get('/contact', function () {
+    return view('layouts/partials/contact');
 });
 
 Route::get('/project', function () {
