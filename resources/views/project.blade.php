@@ -214,9 +214,8 @@
         <div id="paginator">
             <button class="sideBtn"><i class="fas fa-chevron-left fa-2x"></i></button>
             <button class="numBtn">1</button>
-            <button class="numBtn">2</button>
-            <button class="numBtn">3</button>
-            <button class="sideBtn"><i class="fas fa-chevron-right fa-2x sideBtn"></i></button>
+            <button class="numBtn"><a href="/project2">2</a></button>
+            <button class="sideBtn"><a href="/project2"><i class="fas fa-chevron-right fa-2x sideBtn"></i></a></button>
         </div>
     </section>
     @include('layouts.partials.contact')

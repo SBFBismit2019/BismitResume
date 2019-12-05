@@ -34,9 +34,13 @@ Route::get('/footer', function () {
 Route::get('/contact', function () {
     return view('layouts/partials/contact');
 });
-
+//Project
 Route::get('/project', function () {
     return view('project');
+});
+//SecondProject
+Route::get('/project2', function () {
+    return view('project2');
 });
 
 Route::get('/gallery', function () {

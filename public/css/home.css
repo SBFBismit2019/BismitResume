@@ -1,0 +1,737 @@
+.body {
+    font-family: "Rubik";
+}
+
+.main-page {
+    position: relative;
+    background: #857e91;
+}
+
+.main-page .main-page-in {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-page .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.main-page .carousel-inner img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-page nav {
+    width: 100%;
+    height: 10%;
+}
+
+.main-page nav a {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: "Muli", sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.main-page nav .active a {
+    color: #FFB736;
+}
+
+.main-page nav a:hover {
+    transform: scale(0.95);
+}
+
+.main-page nav a:active {
+    color: #0e0036;
+}
+
+.main-page .main-title {
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-page .main-title img:hover {
+    cursor: pointer;
+}
+
+.main-page .main-title h1,
+.main-page .main-title h2 {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+.main-page .main-title h1 {
+    font-size: 3em;
+}
+
+.main-page .main-title h2 {
+    font-size: 2em;
+}
+
+.main-page .main-title button {
+    border-radius: 0;
+    background: #FFB736;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.7em 3em;
+    border: none;
+    transition-duration: 0.5s;
+}
+
+.main-page .main-title button:hover {
+    background: #b97901;
+    cursor: pointer;
+}
+
+.who-are-we {
+    height: fit-content;
+    background: #292B36;
+}
+
+.who-are-we .who-are-we-in {
+    padding: 3rem 10rem 4rem 10rem;
+}
+
+.who-are-we .who-are-we-in h1 {
+    font-size: 4em;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.who-are-we .who-are-we-in .who-quote {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.who-are-we .who-are-we-in .who-quote h2 {
+    text-align: end;
+    font-family: "Muli", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    margin: 1.2em 0;
+    height: 100%;
+    width: 60%;
+    font-size: 2.2em;
+}
+
+.who-are-we .who-are-we-in .who-quote img {
+    height: 2em;
+    width: auto;
+}
+
+.who-are-we .who-are-we-in .who-quote .who-left {
+    align-self: flex-start;
+}
+
+.who-are-we .who-are-we-in .who-quote .who-right {
+    align-self: flex-end;
+}
+
+.finished-projects {
+    min-height: 100vh;
+    padding-bottom: 4em;
+    background: #C3C1CC;
+}
+
+.finished-projects h1 {
+    font-family: "Rubik", sans-serif;
+    margin: 0.3em auto 0 auto;
+    font-weight: bold !important;
+    font-size: 9em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.finished-projects h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 3em;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.finished-projects #finished-special {
+    display: none;
+}
+
+.finished-projects .finished-logo img {
+    margin: 1em;
+    object-fit: contain;
+}
+
+.why-us {
+    height: 100vh;
+    background: url(../images/home/grey-bg.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.why-us .why-us-title h1 {
+    text-align: center;
+    margin: 0.5em auto 0.5em auto;
+    font-size: 4em;
+    padding: 0.7em 0 0.2em 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #292533;
+}
+
+.why-us .why-us-in {
+    height: 60vh;
+}
+
+.why-us .why-us-in .circle {
+    text-align: center;
+    background: #ffffff;
+    width: 14em;
+    height: 14em;
+    padding: 1em;
+    border: 0.3em #ffffff solid;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.5);
+    transition-duration: 0.5s;
+}
+
+.why-us .why-us-in .circle:hover {
+    transform: translateY(-1em);
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.4);
+}
+
+.why-us .why-us-in .circle h2 {
+    font-family: "Muli";
+    font-weight: bold;
+    margin: 0 !important;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.why-us .why-us-in .circle-1 {
+    background: #777777;
+}
+
+.why-us .why-us-in .circle-2 {
+    background: #555555;
+}
+
+.why-us .why-us-in .circle-3 {
+    background: #333333;
+}
+
+.testimonials {
+    height: 100vh;
+    position: relative;
+    background: #666666;
+}
+
+.testimonials .testimonials-in {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+}
+
+.testimonials .testimonials-in .testimonials-title {
+    position: block;
+    margin-top: 5%;
+    height: 10%;
+}
+
+.testimonials .testimonials-in .testimonials-title h1 {
+    color: #ffffff;
+    font-size: 4vw;
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 1vw;
+    border-bottom: 0.15em #ffffff solid;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.testimonials .carousel-item img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.testimonials .carousel-item .quotes {
+    position: block;
+    height: 85%;
+    width: 80vw;
+}
+
+.testimonials .carousel-item .quotes .quotes-in {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.testimonials .carousel-item .quotes .quotes-in h2 {
+    font-size: 3vw;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-family: "Muli", sans-serif;
+    font-weight: bold;
+    margin: 5vw 0;
+}
+
+.testimonials #carousel-testimonials a {
+    position: absolute;
+    width: 10vw;
+    z-index: 4;
+}
+
+.testimonials #carousel-testimonials a .carousel-control-prev-icon,
+.testimonials #carousel-testimonials a .carousel-control-next-icon {
+    background-image: url(../images/home/arrow.png);
+    width: 3vw;
+    height: 3vw;
+}
+
+.testimonials #carousel-testimonials a .carousel-control-prev-icon {
+    transform: rotate(-90deg);
+}
+
+.testimonials #carousel-testimonials a .carousel-control-next-icon {
+    transform: rotate(90deg);
+}
+
+.our-skills {
+    heigth: fit-content;
+    background: #F2E4E1;
+}
+
+.our-skills .our-skills-in {
+    padding: 7em 15vw 6em 15vw;
+}
+
+.our-skills .our-skills-in .our-skills-title {
+    margin-bottom: 8em;
+}
+
+.our-skills .our-skills-in .our-skills-title h1 {
+    font: bold 4em "Rubik", sans-serif;
+    text-align: center;
+    padding-bottom: 0.2em;
+    border-bottom: 0.2em solid black;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 4px 4px #ccc;
+}
+
+.our-skills .our-skills-in .our-skills-content .card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 2em auto;
+    width: 17vw;
+}
+
+.our-skills .our-skills-in .our-skills-content .card:hover {
+    transition: ease-in-out 0.3s;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.our-skills .our-skills-in .our-skills-content .card .card-body {
+    padding: 1vw;
+}
+
+.our-skills .our-skills-in .our-skills-content .card .card-title {
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font: bold 1.4vw "Muli", sans-serif;
+}
+
+.our-skills .our-skills-in .our-skills-content .card .card-img-top {
+    padding: 3em 2em 2em 2em;
+}
+
+.interested {
+    background: url(../images/home/Rectangle.png) center/cover no-repeat fixed;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.interested .title {
+    border-bottom: 0.5rem solid black;
+}
+
+.interested img:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.interested button {
+    background: white;
+    border: none;
+}
+
+.interested button:hover {
+    transition: ease-in-out 0.3s;
+    box-shadow: 7px 7px 7px black;
+    background: white;
+}
+
+.interested a {
+    color: black;
+}
+
+.interested a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .main-page {
+        height: 100vh;
+    }
+    .main-page .main-title {
+        height: 80vh;
+    }
+    .main-page .main-title h1 {
+        font-size: 2.5em;
+    }
+    .main-page .main-title h2 {
+        font-size: 1.5em;
+    }
+    .carousel img {
+        height: 100vh;
+    }
+    #carousel-testimonials a .carousel-control-prev-icon,
+    #carousel-testimonials .carousel-control-next-icon {
+        width: 4vw;
+        height: 4vw;
+    }
+    .who-are-we .who-are-we-in {
+        padding: 2em;
+    }
+    .who-are-we .who-are-we-in h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+    .who-are-we .who-are-we-in .who-quote {
+        width: 100%;
+        justify-content: center;
+    }
+    .who-are-we .who-are-we-in .who-quote h2 {
+        text-align: center;
+        font-size: 1.2em;
+        width: 100%;
+    }
+    .who-are-we .who-are-we-in .who-quote img {
+        height: 1em;
+    }
+    .finished-projects .finished-in h1 {
+        font-size: 7em;
+    }
+    .finished-projects .finished-in h2 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+    .finished-projects .finished-logo {
+        flex-direction: column;
+    }
+    .finished-projects .finished-logo img {
+        margin: 0.5em;
+    }
+    .why-us {
+        height: fit-content;
+    }
+    .why-us .why-us-title h1 {
+        font-size: 3em;
+    }
+    .testimonials .testimonials-in {
+        height: 100vh;
+    }
+    .testimonials .testimonials-title h1 {
+        font-size: 9vw !important;
+    }
+    .testimonials .quotes .quotes-in h2 {
+        font-size: 6vw !important;
+        transform: translateY(-50%);
+    }
+    .testimonials .carousel-item img {
+        height: 100vh;
+    }
+    .our-skills {
+        height: 100vh;
+    }
+    .our-skills .our-skills-in {
+        height: 100%;
+        padding: 3em;
+    }
+    .our-skills .our-skills-in .our-skills-title {
+        margin-bottom: 2em;
+    }
+    .our-skills .our-skills-in .our-skills-title h1 {
+        font-size: 2.5em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+    .our-skills .our-skills-in .our-skills-content {
+        margin-bottom: 1em;
+    }
+    .our-skills .our-skills-in .our-skills-content .card {
+        width: 20vw;
+        margin: 0;
+    }
+    .our-skills .our-skills-in .our-skills-content .card .card-img-top {
+        padding: 0.5em;
+    }
+    .our-skills .our-skills-in .our-skills-content .card .card-body .card-title {
+        font-size: 0.7em;
+    }
+    .interested h2 {
+        visibility: hidden;
+    }
+    .interested .row h1 {
+        opacity: 0;
+    }
+    .interested .interested-in .wa {
+        margin-bottom: 1.5em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .who-are-we .who-are-we-in h1 {
+        text-align: center;
+    }
+    .who-are-we .who-are-we-in .who-quote {
+        width: 100%;
+        justify-content: center;
+    }
+    .who-are-we .who-are-we-in .who-quote h2 {
+        text-align: center;
+        font-size: 2em;
+        width: 100%;
+    }
+    .finished-logo {
+        flex-direction: column;
+    }
+    .finished-logo img {
+        margin: 0.5em;
+    }
+    .why-us .why-us-title {
+        margin-bottom: 3em;
+    }
+    .why-us .why-us-in {
+        flex-direction: column;
+        height: 80%;
+    }
+    .testimonials .testimonials-in {
+        height: 100vh;
+    }
+    .testimonials .carousel-item img {
+        height: 100vh;
+    }
+    .our-skills .our-skills-in {
+        padding: 3em 4em 3em 4em;
+    }
+    .our-skills .our-skills-in .our-skills-title {
+        margin-bottom: 2em;
+    }
+    .our-skills .our-skills-in .our-skills-title h1 {
+        font-size: 3em;
+    }
+    .our-skills .our-skills-in .card .card-body .card-img-top {
+        padding: 0.5em;
+    }
+    .interested {
+        height: 45vh;
+    }
+    .interested .interested-in h2 {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) and (min-height: 1300px) {
+    .why-us {
+        height: fit-content;
+    }
+    .why-us .why-us-in {
+        height: 40vh;
+    }
+    .testimonials .testimonials-in {
+        heigth: 60vh !important;
+    }
+    .testimonials .testimonials-in .quotes {
+        height: fit-content;
+    }
+    .testimonials .carousel-item img {
+        height: 40vh;
+    }
+    .our-skills .our-skills-title h1 {
+        font-size: 5em !important;
+    }
+    .interested {
+        height: 40vh;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 990px) {
+    .main-page .main-title h1 {
+        font-size: 2.5em;
+    }
+    .main-page .main-title h2 {
+        font-size: 1.8em;
+    }
+    .testimonials .testimonials-title h1 {
+        font-size: 7vw !important;
+    }
+    .testimonials .quotes .quotes-in h2 {
+        font-size: 5vw !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        background: black;
+        padding: 1em;
+    }
+    .why-us h1 {
+        padding: 0.5em;
+    }
+    .why-us .why-us-in {
+        height: 80vh !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .why-us .why-us-in .circle {
+        width: 9em !important;
+        height: 9em !important;
+        padding: 1em;
+    }
+    .why-us .why-us-in .circle h2 {
+        font-size: 1.3em !important;
+        margin: 0;
+    }
+    .why-us .why-us-in .line-in {
+        border: 0.3em white solid;
+        background: #ffffff;
+        height: 100%;
+        width: 0.5em;
+        margin: auto;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px) and (max-width: 990px) and (max-height: 555px) {
+    .main-page nav a {
+        font-size: 1em;
+    }
+    .main-page .main-title img {
+        width: 50%;
+    }
+    .main-page .main-title h1 {
+        font-size: 1.6em;
+    }
+    .main-page .main-title h2 {
+        font-size: 1em;
+        margin-bottom: 0.6em !important;
+    }
+    .main-page .main-title button {
+        font-size: 0.8em;
+    }
+    .finished-projects .finished-in .container {
+        width: 100vw;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .finished-projects h1,
+    .finished-projects h2 {
+        display: none;
+    }
+    .finished-projects #finished-special {
+        font-size: 2.5em;
+        display: block;
+        margin-top: 1em;
+    }
+    .finished-projects .finished-logo img {
+        width: auto;
+        height: 4.5em;
+        margin: 0 0.5em;
+    }
+    .why-us {
+        height: fit-content;
+    }
+    .why-us h1 {
+        font-size: 2em;
+    }
+    .why-us .why-us-in {
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .why-us .why-us-in .line {
+        height: fit-content !important;
+    }
+    .why-us .why-us-in .line .line-in {
+        width: 100%;
+        height: 1em;
+    }
+    .testimonials .testimonials-title h1 {
+        font-size: 9vh !important;
+    }
+    .testimonials .quotes .quotes-in h2 {
+        font-size: 6vh !important;
+    }
+    .our-skills .our-skills-in {
+        padding: 2em 3em;
+    }
+    .our-skills .our-skills-in .our-skills-title {
+        margin-bottom: 2em;
+    }
+    .our-skills .our-skills-in .our-skills-title h1 {
+        font-size: 4em;
+    }
+    .interested {
+        height: fit-content;
+        padding: 2em !important;
+    }
+    .interested .interested-in {
+        flex-direction: row !important;
+        margin-top: 3em;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px) and (max-width: 990px) {
+    .why-us .container {
+        min-width: 99vw;
+    }
+    .why-us .why-us-in .circle {
+        width: 10em;
+        height: 10em;
+        padding: 1em;
+    }
+    .why-us .why-us-in .circle h2 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .interested .title {
+        font-size: 5em;
+    }
+    .interested h1 {
+        font-size: 8em;
+        font-weight: 100;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */
