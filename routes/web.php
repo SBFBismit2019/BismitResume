@@ -26,26 +26,38 @@ Route::get('/navbar', function () {
 Route::get('/footer', function () {
     return view('layouts/partials/footer');
 });
-// footer
-Route::get('/footer', function () {
-    return view('layouts/partials/footer');
-});
-// footer
+//Contact
 Route::get('/contact', function () {
     return view('layouts/partials/contact');
 });
+
+//Pages 
+
+//Home
+Route::get('/home', function () {
+    return view('home');
+});
+
 //Project
 Route::get('/project', function () {
     return view('project');
 });
-//SecondProject
+//Project2
 Route::get('/project2', function () {
     return view('project2');
 });
 
+
+//About
+Route::get('/about', function () {
+    return view('about');
+});
+
+//Gallery
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
 
 Route::get('/login', function () {
     return view('loginPage');

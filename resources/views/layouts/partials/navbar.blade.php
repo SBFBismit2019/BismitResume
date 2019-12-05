@@ -21,19 +21,19 @@
         <div class="collapse navbar-collapse my-0" id="navbarNav">
           <ul id="navElements"class="navbar-nav ml-auto align-items-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link {{ (request()->is('about')) ? 'active' : '' }}" href="/about">About</a>
             </li>
             <li class="nav-item">
-              <a id="active" class="nav-link" href="#">Projects</a>
+              <a class="nav-link {{ (request()->is('project')) ? 'active' : '' }}" href="/project">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link {{ (request()->is('gallery')) ? 'active' : '' }}" href="/gallery">Gallery</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">BEM</a>
+              <a class="nav-link" href="https://bem.cs.ui.ac.id/bismit-final/">BEM</a>
             </li>
             <li id="hireUs"class="nav-item">
               <a class="nav-link" href="#">Hire Us!</a>

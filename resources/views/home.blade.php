@@ -16,7 +16,7 @@
     @include('layouts.partials.upBtn')
     <section class="main-page">
         <div class="main-page-in m-0 p-0">
-            <nav class="navbar navbar-expand-md bg-transparent">
+            <!-- <nav class="navbar navbar-expand-md bg-transparent">
                 <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -26,7 +26,7 @@
                             <a href="#" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a href="#" class="nav-link">About</a>
+                            <a href="/about" class="nav-link">About</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a href="/project" class="nav-link inactive">Projects</a>
@@ -35,12 +35,39 @@
                             <a href="/gallery" class="nav-link">Gallery</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a href="#" class="nav-link">BEM</a>
+                            <a href="https://bem.cs.ui.ac.id/bismit-final/" class="nav-link">BEM</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a href="#" class="nav-link">Hire US!</a>
                         </li>
                     </ul>
+                </div>
+            </nav> -->
+            <nav class="navbar navbar-expand-lg p-0">
+                <button id="burger" class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse my-0" id="navbarNav">
+                <ul id="navElements"class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link {{ (request()->is('about')) ? 'active' : '' }}" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link {{ (request()->is('project')) ? 'active' : '' }}" href="/project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link {{ (request()->is('gallery')) ? 'active' : '' }}" href="/gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://bem.cs.ui.ac.id/bismit-final/">BEM</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Hire Us!</a>
+                    </li>
+                </ul>
                 </div>
             </nav>
             <div class="main-title d-flex flex-column justify-content-center align-items-center container-fluid">
