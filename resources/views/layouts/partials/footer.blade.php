@@ -49,11 +49,11 @@
         </div>
         <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
             <div class="linkBar py-2 d-flex flex-md-column align-content-end">
-                <div class="link p-2 m-2 bg-light"><a href="https://www.facebook.com/BEMFasilkomUI/"><img src="{{asset('images/footer/facebook.svg')}}" alt=""></a></div>
-                <div class="link p-2 m-2 bg-light"><img src="{{asset('images/footer/whatsapp.svg')}}" alt=""></div>
-                <div class="link p-2 m-2 bg-light"><img src="{{asset('images/footer/mail.svg')}}" alt="" srcset=""></div>
-                <div class="link p-2 m-2 bg-light"><a href="https://twitter.com/bemfasilkomui"><img src="{{asset('images/footer/twitter.svg')}}" alt="" srcset=""></a></div>
-                <div class="link p-2 m-2 bg-light"><a href="https://id.linkedin.com/company/bem-fakultas-ilmu-komputer-universitas-indonesia"><img src="{{asset('images/footer/linkedin.svg')}}" alt="" srcset=""></a></div>
+                <div class="link p-2 m-2"><a href="https://www.facebook.com/BEMFasilkomUI/"><img src="{{asset('images/footer/facebook.svg')}}" alt=""></a></div>
+                <div class="link p-2 m-2"><a href="https://wa.me/6287883000166"><img src="{{asset('images/footer/whatsapp.svg')}}" alt=""></a></div>
+                <div class="link p-2 m-2"><img src="{{asset('images/footer/mail.svg')}}" alt="" srcset=""></div>
+                <div class="link p-2 m-2"><a href="https://twitter.com/bemfasilkomui"><img src="{{asset('images/footer/twitter.svg')}}" alt="" srcset=""></a></div>
+                <div class="link p-2 m-2"><a href="https://id.linkedin.com/company/bem-fakultas-ilmu-komputer-universitas-indonesia"><img src="{{asset('images/footer/linkedin.svg')}}" alt="" srcset=""></a></div>
             </div>
         </div>
         </div>

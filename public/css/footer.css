@@ -183,3 +183,13 @@ footer {
         width: 100%;
     }
 }
+
+div.linkBar div.link {
+    background: rgba(255, 255, 255, .65);
+    transition: all .2s;
+}
+
+div.linkBar div.link:hover {
+    background: white;
+    transition: all .2s;
+}
