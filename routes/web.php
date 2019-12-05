@@ -58,6 +58,11 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+//About Us
+Route::get('/about', function () {
+    return view('aboutUs');
+});
+
 
 Route::get('/login', function () {
     return view('loginPage');

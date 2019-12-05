@@ -25,7 +25,7 @@
           <div id="locationLabel" class="locationElement col-12 col-md-6 m-0 p-0">
             <div class="header"><h3 id="locationTitle">LOCATION</h3></div>
             <div id="locationDesc" class="flex-column align-items-center d-flex justify-content-center">
-              <img class="img-fluid" src="imgs/pin.png" alt="">
+              <img class="img-fluid" src="{{asset('images/project/pin.png')}}" alt="">
               <h4>Faculty of Computer Science</br>Universitas Indonesia</h4>
             </div>
           </div>
