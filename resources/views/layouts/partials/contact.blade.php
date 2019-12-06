@@ -18,22 +18,20 @@
 <body>
   <section class="contact" style="background-image: linear-gradient(rgba(209, 209, 209, 0.7),rgba(209, 209, 209, 0.7)),url({{asset('images/project/parallax.jpg')}});">
     <div class="header"><h1 id="contactTitle" class="mainTitle">INTERESTED?</h1></div>
-    <div class="contactElements container-fluid">
+    <div class="contactElements container">
       <div class="row justify-content-center">
-        <div class="col-10 col-lg-5 contactElement flex-column align-items-center d-flex justify-content-center">
-          <a class="contactBtn">
+        <div class="col-10 col-md-5 contactElement flex-column align-items-center d-flex justify-content-center">
+          <a class="contactBtn" href="https://wa.me/6287788080742">
             <img class="img-fluid" src="{{asset('images/project/phone-call.png')}}" alt="">
           </a>
-          <h2 target="_blank" href="tel:+6287788080742" class="contactDesc">Nata (+62) 812345678</h2>
+          <a href="https://wa.me/6287788080742" class="contactDesc">Nata (+62) 812345678</a>
         </div>
-        <div class="col-10 col-lg-5 contactElement flex-column align-items-center d-flex justify-content-center order-2">
+        <div class="col-10 col-md-5 contactElement flex-column align-items-center d-flex justify-content-center order-2">
           <a target="_blank" href="https://bem.cs.ui.ac.id/bismit-final/" class="contactBtn">
               <img class="img-fluid" src="{{asset('images/project/search.png')}}" alt="">
           </a>
-          <h2 class="contactDesc">Hire through website</h2>
+          <a href="https://bem.cs.ui.ac.id/bismit-final/" class="contactDesc">Hire through website</a>
         </div>
-        <div class="col-10 col-lg-1 contactElement flex-column align-items-center d-flex justify-content-center pt-5">
-          <h4>or</h4>
         </div>
       </div>
     </div>

@@ -1,107 +1,128 @@
 /* contact elements -----------------------------------------------------------------------------------------------------------------*/
+
 .contact {
     background: grey;
-    position:relative;
+    position: relative;
     /* The image used */
     /* background-image: 
         linear-gradient(
         rgba(209, 209, 209, 0.7),
         rgba(209, 209, 209, 0.7)
       ),url(/public/images/project/parallax.jpg); */
-
     /* Set a specific height */
     /* height: 500px; */
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
-}
-
-
-.contactElements {
-    padding-bottom:250px;
+    background-size: cover;
+    padding-bottom: 2em
 }
 
 .contactElement {
-    padding:0;
-    margin-top:5em;
-    margin-bottom:5em;
+    padding: 0;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .contactBtn {
-    position:absolute;
-    background:none;
-    border:none;
-    margin:none;
-    padding:0;
-    width:8em;
+    position: absolute;
+    background: none;
+    border: none;
+    margin: none;
+    padding: 0;
+    width: 8em;
 }
 
 .contactBtn:hover {
-    width:8.5em;
+    width: 8.5em;
     transition: all .1s;
+    cursor: pointer;
 }
 
 .contactDesc {
-    position:relative;
-    background:white;
-    font-size:1.5em;
-    width:15em;
-    height:100%;
-    padding:10px;
-    text-align:center;
-    margin-top:300px;
+    position: relative;
+    background: white;
+    font-size: 1.5em;
+    width: 15em;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 300px;
     font-weight: bold;
-    color:black;
+    color: black;
     border: 2px solid black;
+}
+
+.contactDesc:hover {
+    text-decoration: none;
+    color: black;
+    transform: scale(0.98);
 }
 
 .contact h4 {
     font-weight: bold;
 }
 
-@media(max-width:1100px){
+
+/* Phone */
+
+@media(max-width:540px) {
+    .contactElement {
+        padding: 0;
+        margin-top: 0.5em;
+        margin-bottom: 1em;
+    }
+}
+
+@media(max-width:1100px) {
     .contactBtn {
-        position:absolute;
-        background:none;
-        border:none;
-        margin:none;
-        padding:0;
-        width:7em;
+        position: absolute;
+        background: none;
+        border: none;
+        margin: none;
+        padding: 0;
+        width: 7em;
     }
     .contactDesc {
-        position:relative;
-        background:white;
-        font-size:1.3em;
-        width:12em;
-        height:100%;
-        padding:10px;
-        text-align:center;
-        margin-top:200px;
+        position: relative;
+        background: white;
+        font-size: 1.3em;
+        width: 12em;
+        height: 100%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 200px;
         font-weight: bold;
-        color:black;
+        color: black;
         border: 2px solid black;
     }
 }
 
+
 /* end of contact elements ----------------------------------------------------------------------------------------------------------*/
+
 .header {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
 .mainTitle {
     color: #292533;
-    text-shadow: 0px 4px 2.5px rgba(41, 37, 51,.2);
+    text-shadow: 0px 4px 2.5px rgba(41, 37, 51, .2);
     font-size: 3.5em;
     font-weight: 900;
     font-family: "rubik";
-    text-align:center;
-    margin-top:2em;
-    padding-bottom:40px;
+    text-align: center;
+    margin-top: 2em;
+    padding-bottom: 40px;
     letter-spacing: .05em;
     border-bottom: 8px solid #292533;
     width: 7em;
+}
+
+@media(max-width:540px) {
+    .mainTitle {
+        font-size: 2em;
+    }
 }
